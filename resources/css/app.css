@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.post-list {
+    border: 2px solid gray;
+    min-width: 600px;
+    min-height: 36px;
+    margin-bottom: 12px;
+    padding: 6px;
+}
+
+.post-list .post-title {
+    font-weight: bold;
+}
+
+.date {
+    float: right;
+}
+
+span.likes {
+    display: flex;
+    float:right;
+    margin-right: 12px;
+}
+
+.post-single {
+    border: 1px solid gray;
+    min-width: 600px;
+    min-height: 480px;
+    padding: 6px;
+}
+
+.post-single h1 {
+    font-weight: bold;
+    font-size: 24px;
+    display: inline;
+}
+
+.post-single p {
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.notification {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.right {
+    float: right;
+}
+
+.back-button {
+    margin-left: 36px;
+}
+
+.post-options {
+    margin-top: 12px;
+}
