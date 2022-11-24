@@ -42,7 +42,7 @@ class Post extends Model
         return $this->likes()->where('user_id', $user->id)->first();
     }
 
-    public static function getPublicPosts(int $limit = 0): Collection
+    public static function getPublicPosts(int $limit = 10): Collection
     {
         return self::where('published', 1)
             ->limit($limit)
